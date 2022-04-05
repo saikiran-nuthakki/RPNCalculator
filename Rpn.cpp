@@ -21,21 +21,13 @@ public:
     string finalpostfix(string expression);
     
     bool priority(int, int);
-   
-     bool Open(string);
-    
+    bool Open(string);
     bool Closed(string);
-    
     bool IsOperator(string);
-    
     bool IsOperand(string);
-    
     bool Accept(string);
-    
     bool order(int);
-    
     int operatororder(int);
-    
     int solution(string);
 };
 
